@@ -2,9 +2,10 @@ let facts = document.querySelector("#fact");
 let factsText = document.querySelector("#factText");
 
 let input = document.querySelector("#numberInput");
-input.addEventListener("input", getFactAjax);
+input.addEventListener("input", getFactFetch);
 
-//getFactFetch
+//getFactAjax
+/*
 function getFactAjax() {
   let number = input.value;
 
@@ -22,8 +23,8 @@ function getFactAjax() {
 
   xhr.send();
 }
+*/
 
-/*
 function getFactFetch() {
   // we need to get data dynamically based on the number input
   let number = input.value;
@@ -37,4 +38,3 @@ function getFactFetch() {
       }
     });
 }
-*/
