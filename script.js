@@ -28,7 +28,7 @@ function getFactAjax() {
 function getFactFetch() {
   // we need to get data dynamically based on the number input
   let number = input.value;
-  const url = `http://numbersapi.com/${number}`;
+  const url = `https://numbersapi.com/${number}`;
   fetch(url)
     .then((response) => response.text())
     .then((data) => {
