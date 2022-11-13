@@ -9,7 +9,7 @@ function getFactAjax() {
   let number = input.value;
 
   let xhr = new XMLHttpRequest();
-  xhr.open("GET", `https://numbersapi.com/${number}`);
+  xhr.open("GET", `http://numbersapi.com/${number}`);
   xhr.onload = function () {
     // http 200 status  means every thing is okay
 
